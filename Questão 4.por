@@ -8,7 +8,7 @@ programa {
       leia(numero1)
       escreva("DIgite putro valor: ")
       leia(numero2)
-      escreva("Escolha o sinal da operação: ")
+      escreva("Escolha o sinal da operaÃ§Ã£o: ")
       leia(operacao)
 
 
@@ -31,8 +31,8 @@ programa {
         pare
 
         caso contrario:
-        escreva("A operação digitada está invalida!!!!")
+        escreva("A operaÃ§Ã£o digitada estÃ¡ invalida!!!!")
       }
-      escreva("O resultado da sua operação é ","[", resultado, "]")
+      escreva("O resultado da sua operaÃ§Ã£o Ã© ","[", resultado, "]")
   }
 }
