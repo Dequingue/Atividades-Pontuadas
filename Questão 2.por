@@ -17,7 +17,7 @@ programa {
     escreva("\n2 - casado(a)")
     escreva("\nDigite seu estado civil:")
     leia(estadoCivil)
-
+    limpa()
      
     //opção caso
   
