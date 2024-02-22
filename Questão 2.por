@@ -4,7 +4,7 @@ programa {
     cadeia nomePessoa, sexo, estadoCivil
     cadeia feminino, casada 
     inteiro tempoCasada
-    // colher informações
+    // colher informaÃ§Ãµes
     escreva("Digite seu nome: ")
     leia(nomePessoa)
     escreva("Qual seu sexo: ")
@@ -19,7 +19,7 @@ programa {
     leia(estadoCivil)
 
      
-    //opção caso
+    //opÃ§Ã£o caso
   
     se(estadoCivil == "casada")
     {
@@ -27,13 +27,13 @@ programa {
       leia(tempoCasada)
     }
     escreva("=======EXIBIR========")
-    escreva("\nSeu nome é: ", nomePessoa)
-    escreva("\nSeu sexo é: ", sexo)
-    escreva("\nSeu esdado civil é: ", estadoCivil)
+    escreva("\nSeu nome Ã©: ", nomePessoa)
+    escreva("\nSeu sexo Ã©: ", sexo)
+    escreva("\nSeu esdado civil Ã©: ", estadoCivil)
 
     se(estadoCivil == "casada")
     {
-      escreva("\nSeu tempo de casada é: ", tempoCasada)
+      escreva("\nSeu tempo de casada Ã©: ", tempoCasada)
     }
   }
 }
