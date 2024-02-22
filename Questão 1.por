@@ -3,7 +3,7 @@ programa {
   {
     real numero1, numero2, numero3, soma
 
-
+    // coleta de informações
     escreva("Digite um valor numerico 1: ")
     leia(numero1)
     escreva("Digite outro valor numerico 2: ")
