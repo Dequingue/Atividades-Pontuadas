@@ -15,6 +15,6 @@ programa {
     {
       resultado = numero1 * numero2
     }
-    escreva("O resultado dessa operação é: ",resultado) 
+    escreva("O resultado dessa operaÃ§Ã£o Ã©: ",resultado) 
   }
 }
