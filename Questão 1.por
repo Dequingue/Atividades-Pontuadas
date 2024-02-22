@@ -11,10 +11,10 @@ programa {
     escreva("Digite mais um valor numerico 3: ")
     leia(numero3)
     limpa()
-    //equaões para as opreações
+    //equaÃµes para as opreaÃ§Ãµes
     soma = numero1 + numero2
 
-    //função do se e resultados
+    //funÃ§Ã£o do se e resultados
     escreva("======= EXIBIR RESULTADOS===========")
 
     escreva("\nNumero 1: ", numero1)
@@ -23,10 +23,10 @@ programa {
     escreva("\nA soma entre o numero 1 e 2: ", soma)
     se(soma > numero3)
     {
-      escreva("\nA soma dos valores numericos 1 e 2 é maior que o numerico 3")
+      escreva("\nA soma dos valores numericos 1 e 2 Ã© maior que o numerico 3")
     }senao
     {
-      escreva("\nA soma dos valores numericos 1 e 2 é menor que o numerico 3")
+      escreva("\nA soma dos valores numericos 1 e 2 Ã© menor que o numerico 3")
     }
 
   }
