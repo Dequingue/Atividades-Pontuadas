@@ -15,18 +15,18 @@ programa {
       media = soma / 2
 
       escreva("\n=====EXIBIR NOTAS======")
-      escreva("\nO nome do aluno È: ", nomeAluno)
-      escreva("\nA Soma da unidade È: ", soma)
-      escreva("\nA media da unidade È: ", media)
+      escreva("\nO nome do aluno √©: ", nomeAluno)
+      escreva("\nA Soma da unidade √©: ", soma)
+      escreva("\nA media da unidade √©: ", media)
       se(media >= 6)
       {
-        escreva("\nesse aluno est· aprovado")
+        escreva("\nesse aluno est√° aprovado")
       }senao se(media < 6 e media > 4)
       {
-        escreva("\nEsse aluna est· em recuperaÁ„o")
+        escreva("\nEsse aluna est√° em recupera√ß√£o")
       }se(media < 4)
         {
-          escreva("\nEsse aluno est· reprovado")
+          escreva("\nEsse aluno est√° reprovado")
         }
 
       
