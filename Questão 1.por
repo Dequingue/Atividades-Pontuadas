@@ -20,7 +20,7 @@ programa {
     escreva("\nNumero 1: ", numero1)
     escreva("\nNumero 2: ", numero2)
     escreva("\nNumero 3: ", numero3)
-    escreva("\nA soma entre o numero 1 e 2: ", soma)
+    escreva("\nA soma entre o numero 1 e 2 = ", soma)
     se(soma > numero3)
     {
       escreva("\nA soma dos valores numericos 1 e 2 é maior que o numerico 3")
