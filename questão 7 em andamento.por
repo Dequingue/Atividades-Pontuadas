@@ -3,7 +3,7 @@ programa {
   { real total, quantidadeAdquirida, precoUnitario
     cadeia nomeProduto, opcao
     
-    //Coleta de informações
+    //Coleta de informaÃ§Ãµes
     escreva("1 - Carrinho de brinquedo R$220,00 ")
     escreva("\n2 - Robo de brinquedo R$470,00 ")
     escreva("\n3 - Pula Pula R$ 900,00 ")
@@ -14,7 +14,7 @@ programa {
     escreva("\nDigite a quantidade do produto: ")
     leia(quantidadeAdquirida)
 
-    //equação de escolha de produtos
+    //equaÃ§Ã£o de escolha de produtos
     escolha(nomeProduto)
     {
       caso"1":
@@ -29,7 +29,7 @@ programa {
       {
         total = quantidadeAdquirida * 220 * (5/100)
       }
-      escreva("\nSeu produto é o [Carrinho],e seu preço é R$:", total)
+      escreva("\nSeu produto Ã© o [Carrinho],e seu preÃ§o Ã© R$:", total)
       pare
 
       caso"2":
@@ -43,7 +43,7 @@ programa {
       {
         total = quantidadeAdquirida * 470 * (5/100)
       }
-      escreva("\nSeu produto é o [Robo],e seu preço é R$:", total)
+      escreva("\nSeu produto Ã© o [Robo],e seu preÃ§o Ã© R$:", total)
       pare
 
       caso"3":
@@ -52,7 +52,7 @@ programa {
       {
         total = 900 * (2/100)
       }
-      escreva("\nSeu produto é o [Pula Pula],e seu preço é R$:", total)
+      escreva("\nSeu produto Ã© o [Pula Pula],e seu preÃ§o Ã© R$:", total)
       pare
 
       caso"4":
@@ -61,11 +61,11 @@ programa {
       {
         total = 150 * (2/100)
       }
-      escreva("\nSeu produto é o [Boneco],e seu preço é R$:", total)
+      escreva("\nSeu produto Ã© o [Boneco],e seu preÃ§o Ã© R$:", total)
       pare
 
       caso contrario:
-      escreva("\nopção não identificada")
+      escreva("\nopÃ§Ã£o nÃ£o identificada")
       
     }
     
