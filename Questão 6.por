@@ -10,7 +10,7 @@ programa {
       leia(primeiraNtoa)
       escreva("Digite a nota da segunda unidade: ")
       leia(segundaNota)
-
+      limpa()
       soma = primeiraNtoa + segundaNota
       media = soma / 2
 
