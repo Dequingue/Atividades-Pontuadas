@@ -20,10 +20,10 @@ programa {
     escolha(nomeProduto)
     {
       caso"1":
-      se(quantidadeAdquirida < 10 e quantidadeAdquirida > 5)
+      se(quantidadeAdquirida <= 10 e quantidadeAdquirida > 5)
       {
         total = quantidadeAdquirida * 220 * (3/100)
-      }senao se(quantidadeAdquirida < 5)
+      }senao se(quantidadeAdquirida <= 5)
       {
         total = quantidadeAdquirida * 220 * (2/100)
         
@@ -35,10 +35,10 @@ programa {
       pare
 
       caso"2":
-      se(quantidadeAdquirida < 10 e quantidadeAdquirida > 5)
+      se(quantidadeAdquirida <= 10 e quantidadeAdquirida > 5)
       {
         total = quantidadeAdquirida * 470 * (3/100)
-      }senao se(quantidadeAdquirida < 5)
+      }senao se(quantidadeAdquirida <= 5)
       {
         total = quantidadeAdquirida * 470 * (2/100)
       }se(quantidadeAdquirida > 10)
@@ -49,10 +49,10 @@ programa {
       pare
 
       caso"3":
-      se(quantidadeAdquirida < 10 e quantidadeAdquirida > 5)
+      se(quantidadeAdquirida <= 10 e quantidadeAdquirida > 5)
       {
         total = quantidadeAdquirida * 900 * (3/100)
-      }senao se(quantidadeAdquirida < 5)
+      }senao se(quantidadeAdquirida <= 5)
       {
         total = quantidadeAdquirida * 900 * (2/100)
       }se(quantidadeAdquirida > 10)
@@ -63,10 +63,10 @@ programa {
       pare
 
       caso"4":
-      se(quantidadeAdquirida < 10 e quantidadeAdquirida >5)
+      se(quantidadeAdquirida <= 10 e quantidadeAdquirida >5)
       {
         total = quantidadeAdquirida * 150 * (3/100)
-      }senao se(quantidadeAdquirida < 5)
+      }senao se(quantidadeAdquirida <= 5)
       {
         total = quantidadeAdquirida * 150* (5/100)
       }
