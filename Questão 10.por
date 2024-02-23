@@ -5,17 +5,17 @@ programa {
     real total, litros, preco  
 
     escreva("========= EXIBIR TABELA =========")
-    escreva("\n\t\t\t\t\t ¡LCOOL")
-    escreva("\nAtÈ 25 litros, desconto de 2% por litro ")
+    escreva("\n\t\t\t\t\t √ÅLCOOL")
+    escreva("\nAt√© 25 litros, desconto de 2% por litro ")
     escreva("\nAcima de 25 litros, desconto de 4% por litro ")
     
     escreva("\n\n\t\t\t\t\t GASOLINA ")
-    escreva("\nAtÈ 25 litros, desconto de 3% por litro ")
-    escreva("\nAcima de 25 litro, desconto de 5%por litro ")
+    escreva("\nAt√© 25 litros, desconto de 3% por litro ")
+    escreva("\nAcima de 25 litro, desconto de 5% por litro ")
 
     escreva("\n\n===========================================")  
 
-    escreva("\nDigite A-·lcool ou G-gasolina para escolher seu combustivel: ")
+    escreva("\nDigite A-√°lcool ou G-gasolina para escolher seu combustivel: ")
     leia(combustivel)
     escreva("\nEscolha quantos litros: ")
     leia(litros)
@@ -48,11 +48,6 @@ programa {
       caso contrario:
       escreva("\n[Escolha o tipo de combustivel e quantos litros!!!]")
     }
-    se(combustivel)
-    {
-    escreva("\nO combustivel de sua escolha È [", combustivel,"] e o preÁo È R$", total)
-    }
-
     escreva("\n=======================================================================")
   }
 }
