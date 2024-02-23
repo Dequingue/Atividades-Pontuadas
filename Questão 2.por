@@ -1,4 +1,4 @@
-oprograma {
+  programa {
   funcao inicio() 
   { 
     cadeia nomePessoa, sexo, estadoCivil
