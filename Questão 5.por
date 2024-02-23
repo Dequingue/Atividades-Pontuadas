@@ -31,8 +31,8 @@ programa {
         pare
 
         caso contrario:
-        escreva("A operação digitada está invalida!!!!")
+        escreva("\nA operação digitada está invalida!!!!")
       }
-      escreva("O resultado é ","[", resultado, "]")
+      escreva("\nO resultado é ","[", resultado, "]")
   }
 }
