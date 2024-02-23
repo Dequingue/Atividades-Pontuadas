@@ -31,7 +31,7 @@ programa {
       {
         total = quantidadeAdquirida * 220 * (5/100)
       }
-      escreva("\n\nSeu produto escolhido foi o [Carrinho],e seu preço é de R$:", total)
+      escreva("\n\nSeu produto escolhido foi o [Carrinho],e seu valor é de R$:", total)
       pare
 
       caso"2":
@@ -45,7 +45,7 @@ programa {
       {
         total = quantidadeAdquirida * 470 * (5/100)
       }
-      escreva("\n\nSeu produto escolhido foi o [Robo],e seu prço é de R$:", total)
+      escreva("\n\nSeu produto escolhido foi o [Robo],e seu valor é de R$:", total)
       pare
 
       caso"3":
@@ -59,7 +59,7 @@ programa {
       {
         total = quantidadeAdquirida * 900 * (5/100)
       }
-      escreva("\n\nSeu produto escolhido foi o [Pula Pula],e seu preço  é de R$:", total)
+      escreva("\n\nSeu produto escolhido foi o [Pula Pula],e seu valor é de R$:", total)
       pare
 
       caso"4":
@@ -71,7 +71,7 @@ programa {
       {
         total = quantidadeAdquirida * 150* (5/100)
       }
-      escreva("\n\nSeu produto escolhido foi o [Boneco],e seu  preço é de R$:", total)
+      escreva("\n\nSeu produto escolhido foi o [Boneco],e seu  valor é de R$:", total)
       pare
 
       caso contrario:
