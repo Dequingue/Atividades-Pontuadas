@@ -2,18 +2,18 @@ programa {
   funcao inicio() 
   {
   //valor total do emprestimo deve ser ate 10x o valor da renda mensal 
-  //o valor da prestação deve ser no maximo 30% da renda mensal
+  //o valor da prestaÃ§Ã£o deve ser no maximo 30% da renda mensal
   real valor_emprestimo, renda_mensal   
   real prestacao_maxima, limite_empretimo
   //leia renda mensal de uma pessoa
   //o valor total do emprestimo solicitado
-  //o numero de prestações que o solicitante deseja
+  //o numero de prestaÃ§Ãµes que o solicitante deseja
   escreva("Informe sua renda mensal: ")
   leia(renda_mensal)
   escreva("Informe o valor do emprestimo que deseja: ")
   leia(valor_emprestimo)
 
-  //calculo das prestações
+  //calculo das prestaÃ§Ãµes
   limite_empretimo = renda_mensal * 10
   prestacao_maxima = renda_mensal * (3/100)
 
@@ -25,7 +25,7 @@ programa {
       escreva("\nEmprestimo consedido!")
     }senao
     {
-      escreva("\nO valor da prestação excede 30% da renda mensal.")
+      escreva("\nO valor da prestaÃ§Ã£o excede 30% da renda mensal.")
     }
 
 
