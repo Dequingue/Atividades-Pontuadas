@@ -63,7 +63,6 @@ programa {
       pare
 
       caso"4":
-      total = quantidadeAdquirida * 150
       se(quantidadeAdquirida < 10 e quantidadeAdquirida >5)
       {
         total = quantidadeAdquirida * 150 * (3/100)
