@@ -5,14 +5,14 @@ programa {
     real preco, peso, total
 
     escreva("====== TABELA ======")
-    escreva("\nMorango até 5Kg - R$2,50")
+    escreva("\nMorango atÃ© 5Kg - R$2,50")
     escreva("\nMorango acima de 5Kg - R$2,20 ")
-    escreva("\nMaçã até 5Kg - R$1,80")
-    escreva("\nMçã acima de 5Kg - R$1,50 ")
+    escreva("\nMaÃ§Ã£ atÃ© 5Kg - R$1,80")
+    escreva("\nMÃ§Ã£ acima de 5Kg - R$1,50 ")
     escreva("\n===========================")
 
 
-    escreva("\nEscolha a fruta entre [morango e maça]: ")
+    escreva("\nEscolha a fruta entre [morango e maÃ§a]: ")
     leia(frutas)
     escreva("Escolha quantos KG vc deseja: ")
     leia(peso)
@@ -33,7 +33,7 @@ programa {
       }
       pare
 
-      caso"maça":
+      caso"maÃ§a":
       se(peso <= 6)
       {
         preco = 1.80
@@ -44,13 +44,10 @@ programa {
           total = peso * preco * (10/100)
         }
         caso contrario:
-        se(frutas)
-        {
-        escreva("\nEscolha entre morango e maça, e digite quantos quilos deseja!!!!")
-        }
+        escreva("\nEscolha entre morango e maÃ§a, e digite quantos quilos deseja!!!!")    
     }
 
-      escreva("\nA fruta de sua escolha é [",frutas,"]"," KG:", peso ," e o preço é R$", total)
+      escreva("\nA fruta de sua escolha Ã© [",frutas,"]"," KG:", peso ," e o preÃ§o Ã© R$", total)
       escreva("\n============================================================================")
   }
 }
