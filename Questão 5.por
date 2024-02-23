@@ -33,6 +33,6 @@ programa {
         caso contrario:
         escreva("A operação digitada está invalida!!!!")
       }
-      escreva("O resultado da sua operação é ","[", resultado, "]")
+      escreva("O resultado é ","[", resultado, "]")
   }
 }
