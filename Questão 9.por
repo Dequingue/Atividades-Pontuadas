@@ -3,22 +3,25 @@ programa {
   {
   //valor total do emprestimo deve ser ate 10x o valor da renda mensal 
   //o valor da prestação deve ser no maximo 30% da renda mensal
+
   real valor_emprestimo, renda_mensal   
-  real prestacao_maxima, limite_empretimo
+  real prestacao_maxima, limite_emprestimo
+
   //leia renda mensal de uma pessoa
   //o valor total do emprestimo solicitado
   //o numero de prestações que o solicitante deseja
+
   escreva("Informe sua renda mensal: ")
   leia(renda_mensal)
   escreva("Informe o valor do emprestimo que deseja: ")
   leia(valor_emprestimo)
 
   //calculo das prestações
-  limite_empretimo = renda_mensal * 10
+  limite_emprestimo = renda_mensal * 10
   prestacao_maxima = renda_mensal * (3/100)
 
   //possibilidade com o se
-  se(valor_emprestimo <= limite_empretimo)
+  se(valor_emprestimo <= limite_emprestimo)
   {
     se(valor_emprestimo * (3/100) <= prestacao_maxima)
     {
