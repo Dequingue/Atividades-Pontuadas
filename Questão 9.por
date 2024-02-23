@@ -33,14 +33,7 @@ programa {
   {
     escreva("\nO valor do meprestimo excede 10 vezes a renda mensal!")
   }
-
    
   }
     
-
-
-  
-
-
-  
 }
