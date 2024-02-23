@@ -22,7 +22,7 @@ programa {
     escolha(frutas)
     {
       caso"morango":
-      se(peso <= 6)
+      se(peso <= 7)
       {
       preco = 2.50
       total = peso * preco
