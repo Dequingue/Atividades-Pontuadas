@@ -3,7 +3,7 @@ programa {
   { real total, quantidadeAdquirida, precoUnitario
     cadeia nomeProduto, opcao
     
-    //Coleta de informaÃ§Ãµes
+    //Coleta de informaÃƒÂ§ÃƒÂµes
     escreva("1 - Carrinho de brinquedo R$220,00 ")
     escreva("\n2 - Robo de brinquedo R$470,00 ")
     escreva("\n3 - Pula Pula R$ 900,00 ")
@@ -14,7 +14,7 @@ programa {
     escreva("\nDigite a quantidade do produto: ")
     leia(quantidadeAdquirida)
 
-    //equação de escolha de produtos
+    //equaÃ§Ã£o de escolha de produtos
     escreva("\n\n===========EXIBIR VALOR DO PRODUTO==========")
 
     escolha(nomeProduto)
@@ -31,7 +31,7 @@ programa {
       {
         total = quantidadeAdquirida * 220 * (5/100)
       }
-      escreva("\n\nSeu produto escolhido foi o [Carrinho],e seu preço é de R$:", total)
+      escreva("\n\nSeu produto escolhido foi o [Carrinho],e seu preÃ§o Ã© de R$:", total)
       pare
 
       caso"2":
@@ -45,7 +45,7 @@ programa {
       {
         total = quantidadeAdquirida * 470 * (5/100)
       }
-      escreva("\n\nSeu produto escolhido foi o [Robo],e seu prço é de R$:", total)
+      escreva("\n\nSeu produto escolhido foi o [Robo],e seu prÃ§o Ã© de R$:", total)
       pare
 
       caso"3":
@@ -59,7 +59,7 @@ programa {
       {
         total = quantidadeAdquirida * 900 * (5/100)
       }
-      escreva("\n\nSeu produto escolhido foi o [Pula Pula],e seu preço  é de R$:", total)
+      escreva("\n\nSeu produto escolhido foi o [Pula Pula],e seu preÃ§o  Ã© de R$:", total)
       pare
 
       caso"4":
@@ -71,7 +71,7 @@ programa {
       {
         total = quantidadeAdquirida * 150* (5/100)
       }
-      escreva("\n\nSeu produto escolhido foi o [Boneco],e seu  preço é de R$:", total)
+      escreva("\n\nSeu produto escolhido foi o [Boneco],e seu  preÃ§o Ã© de R$:", total)
       pare
 
       caso contrario:
