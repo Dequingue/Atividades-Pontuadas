@@ -34,7 +34,7 @@ programa {
       pare
 
       caso"maça":
-      se(peso <= 6)
+      se(peso <= 7)
       {
         preco = 1.80
         total = peso * preco
