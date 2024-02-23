@@ -48,6 +48,7 @@ programa {
       caso contrario:
       escreva("\n[Escolha o tipo de combustivel e quantos litros!!!]")
     }
+    escreva("\nO combustivel de sua escolha [",combustivel,"] tem: ",litros, " litros seu valor é R$", total )
     escreva("\n=======================================================================")
   }
 }
