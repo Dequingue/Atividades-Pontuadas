@@ -3,7 +3,7 @@ programa {
   { real total, quantidadeAdquirida, precoUnitario
     cadeia nomeProduto, opcao
     
-    //Coleta de informaÃ§Ãµe
+    //Coleta de informações
     escreva("1 - Carrinho de brinquedo R$220,00 ")
     escreva("\n2 - Robo de brinquedo R$470,00 ")
     escreva("\n3 - Pula Pula R$ 900,00 ")
